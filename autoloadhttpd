@@ -4,6 +4,6 @@ sudo yum install httpd
 
 sudo systemctl start httpd
 
-sudosystemctl enable httpd
+sudo systemctl enable httpd
 
 echo "Hello world!" > sudo tie /var/www/html/index.html
